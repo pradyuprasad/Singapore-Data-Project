@@ -7,9 +7,9 @@ This is my project to automatically analyse Singapore's economic data using LLMs
 - Ask it any question, let it pick the correct dataset by itself, and answer your question
 
 # Usage
-You can view the project at deployment link [here](https://sgdataproject-frontend.onrender.com/). Alternatively, you can clone it and run the backend by doing
+The old deployment link was [here](https://sgdataproject-frontend.onrender.com/). It isn't on now and takes a long time (> 5 mins cold start to turn on). Alternatively, you can clone it and run the backend by doing
 
-```
+```zsh
 export PORT=10000
 uvicorn src.microservice.main:app --host 0.0.0.0 --port $PORT
 ```
